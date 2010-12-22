@@ -1,6 +1,6 @@
 Summary: hiredis
 Name: hiredis
-Version: 0.9.1
+Version: 0.9.2
 Release: 1%{?dist}
 License: BSD
 Group: Applications/Multimedia
@@ -35,6 +35,9 @@ mkdir -p %{buildroot}%{_libdir}
 %{_includedir}/
 
 %changelog
+* Wed Dec 22 2010 Sergio Rubio <srubio@abiquo.com> - 0.9.2-1
+- updated to upstream 0.9.2
+
 * Fri Dec 10 2010 Sergio Rubio <srubio@abiquo.com> - 0.9.1-1
 - updated to hiredis 0.9.1
 
